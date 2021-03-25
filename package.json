@@ -1,0 +1,36 @@
+{
+    "name": "avatar-ui-extension-pack",
+    "displayName": "Avatar UI Extension Pack",
+    "publisher": "jkons",
+    "description": "An Extension Pack for the Avatar UI team",
+    "version": "0.0.4",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "MS-vsliveshare.vsliveshare",
+        "aaron-bond.better-comments",
+        "Angular.ng-template",
+        "Mikael.Angular-BeastCode",
+        "streetsidesoftware.code-spell-checker",
+        "formulahendry.auto-rename-tag",
+        "rbbit.typescript-hero",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "WallabyJs.quokka-vscode",
+        "alefragnani.project-manager",
+        "ChakrounAnas.turbo-console-log"
+    ],
+    "scripts": {
+        "publish": "cd avatar-ui-extension-pack && npm version patch & vsce package",
+        "publish-optional": "cd avatar-ui-extension-pack-optional && npm version patch & vsce package"
+    },
+    "author": {
+        "name": "jk|o|ns"
+    },
+    "icon": "icons/Avatar_Icon.png"
+}
