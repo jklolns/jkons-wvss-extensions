@@ -2,8 +2,8 @@
     "name": "avatar-ui-extension-pack",
     "displayName": "Avatar UI Extension Pack",
     "publisher": "jkons",
-    "description": "An Extension Pack for the Avatar UI team",
-    "version": "0.0.4",
+    "description": "An Extension Pack for a simple setup at school",
+    "version": "0.0.1",
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -13,17 +13,16 @@
     "extensionPack": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "MS-vsliveshare.vsliveshare",
-        "aaron-bond.better-comments",
-        "Angular.ng-template",
-        "Mikael.Angular-BeastCode",
         "streetsidesoftware.code-spell-checker",
         "formulahendry.auto-rename-tag",
         "rbbit.typescript-hero",
         "VisualStudioExptTeam.vscodeintellicode",
         "WallabyJs.quokka-vscode",
         "alefragnani.project-manager",
-        "ChakrounAnas.turbo-console-log"
+        "ChakrounAnas.turbo-console-log",
+        "coenraads.bracket-pair-colorizer-2",
+        "ritwickdey.live-sass",
+        "ritwickdey.liveserver"
     ],
     "scripts": {
         "publish": "cd avatar-ui-extension-pack && npm version patch & vsce package",
@@ -32,5 +31,5 @@
     "author": {
         "name": "jk|o|ns"
     },
-    "icon": "icons/Avatar_Icon.png"
+    "icon": ""
 }
