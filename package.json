@@ -3,7 +3,7 @@
     "displayName": "Avatar UI Extension Pack",
     "publisher": "jkons",
     "description": "An Extension Pack for a simple setup at school",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.54.0"
     },
