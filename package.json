@@ -23,7 +23,7 @@
     ],
     "scripts": {
         "build": "npm version patch & vsce package",
-        "build-publish": "npm version patch & vsce package && vsce publish patch"
+        "build-publish": "npm version patch & vsce package && vsce publish"
     },
     "author": {
         "name": "jk|o|ns"
