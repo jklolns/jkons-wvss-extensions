@@ -1,7 +1,7 @@
 {
     "name": "jkons-extension-pack",
-    "displayName": "j|kon|s Extension Pack",
-    "publisher": "jkons",
+    "displayName": "jk|o|ns Extension Pack",
+    "publisher": "JimKnopf",
     "description": "An Extension Pack for a simple setup at school",
     "version": "0.0.0",
     "engines": {
@@ -23,7 +23,7 @@
     ],
     "scripts": {
         "build": "npm version patch & vsce package",
-        "build-publish": "npm version patch & vsce package && vsce publish"
+        "build-publish": "npm version patch & vsce package && vsce publish patch"
     },
     "author": {
         "name": "jk|o|ns"
