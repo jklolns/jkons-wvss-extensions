@@ -1,5 +1,5 @@
 {
-    "name": "avatar-ui-extension-pack",
+    "name": "jkons-extension-pack",
     "displayName": "Avatar UI Extension Pack",
     "publisher": "jkons",
     "description": "An Extension Pack for a simple setup at school",
@@ -15,18 +15,15 @@
         "esbenp.prettier-vscode",
         "streetsidesoftware.code-spell-checker",
         "formulahendry.auto-rename-tag",
-        "rbbit.typescript-hero",
         "VisualStudioExptTeam.vscodeintellicode",
         "WallabyJs.quokka-vscode",
-        "alefragnani.project-manager",
-        "ChakrounAnas.turbo-console-log",
         "coenraads.bracket-pair-colorizer-2",
         "ritwickdey.live-sass",
         "ritwickdey.liveserver"
     ],
     "scripts": {
-        "publish": "cd avatar-ui-extension-pack && npm version patch & vsce package",
-        "publish-optional": "cd avatar-ui-extension-pack-optional && npm version patch & vsce package"
+        "build": "npm version patch & vsce package",
+        "build-publish": "npm version patch & vsce package && vsce publish"
     },
     "author": {
         "name": "jk|o|ns"
