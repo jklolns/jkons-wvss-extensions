@@ -1,9 +1,9 @@
 {
     "name": "jkons-extension-pack",
-    "displayName": "Avatar UI Extension Pack",
+    "displayName": "j|kon|s Extension Pack",
     "publisher": "jkons",
     "description": "An Extension Pack for a simple setup at school",
-    "version": "0.0.2",
+    "version": "0.0.0",
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -28,7 +28,7 @@
     "author": {
         "name": "jk|o|ns"
     },
-    "icon": ""
+    "icon": "images/wvss_logo.jpg",
     "repository": {
         "type": "git",
         "url": "https://github.com/Jim8Knopf/jkons-wvss-extensions"

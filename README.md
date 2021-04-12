@@ -14,8 +14,6 @@ Double click on VSIX file to install. If the installation fails, install it from
  - Download the latest version of the .vsix File
  - Select Extensions (Ctrl + Shift + X)
  - Open “More Action” menu(ellipsis on the top) and click “Install from VSIX…”\
-![image](./images/guide0.png)\
-![image](./images/guide1.png)
  - Locate VSIX file and select
  - Reload VSCode
 
