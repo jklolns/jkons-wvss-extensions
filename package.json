@@ -29,4 +29,8 @@
         "name": "jk|o|ns"
     },
     "icon": ""
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jim8Knopf/jkons-wvss-extensions"
+    }
 }
