@@ -19,7 +19,8 @@
         "WallabyJs.quokka-vscode",
         "coenraads.bracket-pair-colorizer-2",
         "ritwickdey.live-sass",
-        "ritwickdey.liveserver"
+        "ritwickdey.liveserver",
+        "umoxfo.vscode-w3cvalidation"
     ],
     "scripts": {
         "build": "npm version patch & vsce package",

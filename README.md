@@ -32,12 +32,6 @@ Double click on VSIX file to install. If the installation fails, install it from
     "Yellow",
     "Pink"
   ],
-  "cSpell.userWords": [
-    "jkol",
-    "jkons",
-    "primeng",
-    "rons"
-  ],
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
