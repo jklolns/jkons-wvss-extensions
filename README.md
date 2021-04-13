@@ -1,5 +1,7 @@
 # [Jk|o|ns] WVS² Extension Pack
 
+![logo](https://github.com/Jim8Knopf/jkons-wvss-extensions/tree/master/images/wvs2_jkons_pack_logo.jpg?raw=true)
+
 ## Included Extensions
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
