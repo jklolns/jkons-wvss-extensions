@@ -3,7 +3,7 @@
     "displayName": "jk|o|ns Extension Pack",
     "publisher": "JimKnopf",
     "description": "An Extension Pack for a simple setup at school",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -15,12 +15,12 @@
         "esbenp.prettier-vscode",
         "streetsidesoftware.code-spell-checker",
         "formulahendry.auto-rename-tag",
-        "VisualStudioExptTeam.vscodeintellicode",
         "WallabyJs.quokka-vscode",
         "coenraads.bracket-pair-colorizer-2",
         "ritwickdey.live-sass",
         "ritwickdey.liveserver",
-        "umoxfo.vscode-w3cvalidation"
+        "umoxfo.vscode-w3cvalidation",
+        "tabnine.tabnine-vscode"
     ],
     "scripts": {
         "build": "npm version patch & vsce package",
