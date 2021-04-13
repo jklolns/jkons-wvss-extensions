@@ -1,37 +1,39 @@
 {
-    "name": "jkons-extension-pack",
-    "displayName": "jk|o|ns Extension Pack",
-    "publisher": "JimKnopf",
-    "description": "An Extension Pack for a simple setup at school",
-    "version": "0.0.8",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker",
-        "formulahendry.auto-rename-tag",
-        "WallabyJs.quokka-vscode",
-        "coenraads.bracket-pair-colorizer-2",
-        "ritwickdey.live-sass",
-        "ritwickdey.liveserver",
-        "umoxfo.vscode-w3cvalidation",
-        "tabnine.tabnine-vscode"
-    ],
-    "scripts": {
-        "build": "npm version patch & vsce package",
-        "build-publish": "npm version patch & vsce package && vsce publish"
-    },
-    "author": {
-        "name": "jk|o|ns"
-    },
-    "icon": "images/wvss_logo.jpg",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Jim8Knopf/jkons-wvss-extensions"
-    }
+  "name": "jkons-extension-pack",
+  "displayName": "jk|o|ns Extension Pack",
+  "publisher": "JimKnopf",
+  "description": "An Extension Pack for a simple setup at school",
+  "version": "0.0.9",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "formulahendry.auto-rename-tag",
+    "WallabyJs.quokka-vscode",
+    "coenraads.bracket-pair-colorizer-2",
+    "ritwickdey.live-sass",
+    "ritwickdey.liveserver",
+    "umoxfo.vscode-w3cvalidation",
+    "tabnine.tabnine-vscode",
+    "naumovs.color-highlight",
+    "oderwat.indent-rainbow"
+  ],
+  "scripts": {
+    "build": "npm version patch & vsce package",
+    "build-publish": "npm version patch & vsce package && vsce publish"
+  },
+  "author": {
+    "name": "jk|o|ns"
+  },
+  "icon": "images/wvss_logo.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jim8Knopf/jkons-wvss-extensions"
+  }
 }

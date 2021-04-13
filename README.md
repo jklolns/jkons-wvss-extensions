@@ -1,28 +1,26 @@
 # Avatar UI Extension Pack
 
 ## Includes
+
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [TabNine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 - [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Live Sass](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+- [W3C Validation](https://marketplace.visualstudio.com/items?itemName=Umoxfo.vscode-w3cvalidation)
+- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [Bracket Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
-## Internal distribution and installation
-Double click on VSIX file to install. If the installation fails, install it from within VSCode. Follow the steps to install manually:
- - Download the latest version of the .vsix File
- - Select Extensions (Ctrl + Shift + X)
- - Open “More Action” menu(ellipsis on the top) and click “Install from VSIX…”\
- - Locate VSIX file and select
- - Reload VSCode
+## Publish new Extension Pack Version
 
-## Generate Extension File
-```vsce package```
+1. Update version
+2. Just push!
 
-**Enjoy!**
-
-## Setup suggestion: 
+## Setup suggestion:
 
 ```json
 {
@@ -44,14 +42,11 @@ Double click on VSIX file to install. If the installation fails, install it from
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "eslint.codeAction.showDocumentation": {
-    
     "enable": true
   },
   "eslint.format.enable": true,
   "eslint.onIgnoredFiles": "warn",
-  "eslint.options": {
-    
-  },
+  "eslint.options": {},
   "editor.suggestSelection": "first",
   "editor.formatOnSave": true,
   "editor.tabCompletion": "on",
