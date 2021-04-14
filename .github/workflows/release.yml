@@ -26,7 +26,10 @@ jobs:
         run: npm i -g vsce ovsx
 
       - name: Publish Microsoft
-        run: vsce publish -p ${{ secrets.VSCE_PAT }} 
+        run: vsce publish -p ${{ secrets.VSCE_PAT }}
+      
+      - name: login Open VSX Registry
+        run: ovsx create-namespace JimKnopf -p {{ secrets.VSX_PAT }}
       
       - name: Publish Open VSX registry
         run: ovsx publish -p {{ secrets.VSX_PAT }}
