@@ -13,7 +13,7 @@
 - [Bracket Colorizer 2](https://open-vsx.org/extension/CoenraadS/bracket-pair-colorizer-2)
 - [Indent Rainbow](https://open-vsx.org/extension/oderwat/indent-rainbow)
 
-## Extensions we want to add when tey are in the [Open VSX Registry](https://open-vsx.org)
+## Extensions we want to add when they are in the [Open VSX Registry](https://open-vsx.org)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [W3C Validation](https://marketplace.visualstudio.com/items?itemName=Umoxfo.vscode-w3cvalidation)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
