@@ -4,18 +4,20 @@
 
 ## Included Extensions
 
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [ESLint](https://open-vsx.org/extension/dbaeumer/vscode-eslint)
+- [Prettier](https://open-vsx.org/extension/esbenp/prettier-vscode)
+- [Code Spell Checker](https://open-vsx.org/extension/streetsidesoftware/code-spell-checker)
+- [TabNine](https://open-vsx.org/extension/TabNine/tabnine-vscode)
+- [Live Server](https://open-vsx.org/extension/ritwickdey/LiveServer)
+- [Live Sass](https://open-vsx.org/extension/glenn2223/live-sass)
+- [Bracket Colorizer 2](https://open-vsx.org/extension/CoenraadS/bracket-pair-colorizer-2)
+- [Indent Rainbow](https://open-vsx.org/extension/oderwat/indent-rainbow)
+
+## Extensions we want to add when tey ar in the [Open VSX Registry](https://open-vsx.org)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [TabNine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
-- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Live Sass](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 - [W3C Validation](https://marketplace.visualstudio.com/items?itemName=Umoxfo.vscode-w3cvalidation)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-- [Bracket Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-- [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 
 ## Publish new Extension Pack Version
 
