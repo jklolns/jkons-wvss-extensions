@@ -18,6 +18,8 @@
 - [W3C Validation](https://marketplace.visualstudio.com/items?itemName=Umoxfo.vscode-w3cvalidation)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [npm](https://open-vsx.org/extension/eg2/vscode-npm-script)
+- [markdownlinter](https://open-vsx.org/extension/DavidAnson/vscode-markdownlint)
 
 ## Publish new Extension Pack Version
 
