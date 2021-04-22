@@ -1,12 +1,24 @@
 # [Jk|o|ns] WVS² Extension Pack
 
 ![logo](https://github.com/Jim8Knopf/jkons-wvss-extensions/blob/master/images/wvs2_jkons_pack_logo.jpg?raw=true)
+
 [
-![shield](https://img.shields.io/github/contributors/Jim8Knopf/jkons-wvss-extensions?style=plastic)
+![contributors](https://img.shields.io/github/contributors/Jim8Knopf/jkons-wvss-extensions?style=plastic)
+![contributors](https://img.shields.io/github/license/Jim8Knopf/jkons-wvss-extensions?style=plastic)
+![contributors](https://img.shields.io/github/package-json/v/Jim8Knopf/jkons-wvss-extensions?style=plastic)
+![contributors](https://img.shields.io/github/workflow/status/Jim8Knopf/jkons-wvss-extensions/Release?style=plastic)
 ](https://github.com/Jim8Knopf/jkons-wvss-extensions/graphs/contributors)
+
 [
-![shield](https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic)
+![open-VSX rating](https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&label=Open%20VSX&style=plastic)
+![open-VSX rating](https://img.shields.io/open-vsx/dt/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic)
+![open-VSX rating](https://img.shields.io/open-vsx/v/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic)
 ](https://open-vsx.org/extension/JimKnopf/jkons-extension-pack)
+
+![vsCode installs](https://img.shields.io/visual-studio-marketplace/r/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
+![vsCode installs](https://img.shields.io/visual-studio-marketplace/d/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
+![vsCode installs](https://img.shields.io/visual-studio-marketplace/v/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
+![vsCode installs](https://img.shields.io/visual-studio-marketplace/i/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
 
 ## Included Extensions
 
