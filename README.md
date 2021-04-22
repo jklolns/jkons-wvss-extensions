@@ -2,13 +2,8 @@
 
 ![logo](https://github.com/Jim8Knopf/jkons-wvss-extensions/blob/master/images/wvs2_jkons_pack_logo.jpg?raw=true)
 
-</p>
-<p align="center">
-    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic" /></a>
-</p>
-![Open VSX](https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/eclipse/openvsx)
+![shield](https://img.shields.io/github/contributors/Jim8Knopf/jkons-wvss-extensions?style=plastic)
+![shield](https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic&?link=https://open-vsx.org&link=https://open-vsx.org/extension/JimKnopf/jkons-extension-pack)
 
 ## Included Extensions
 
