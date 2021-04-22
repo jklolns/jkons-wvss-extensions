@@ -1,9 +1,12 @@
 # [Jk|o|ns] WVS² Extension Pack
 
 ![logo](https://github.com/Jim8Knopf/jkons-wvss-extensions/blob/master/images/wvs2_jkons_pack_logo.jpg?raw=true)
-
+[
 ![shield](https://img.shields.io/github/contributors/Jim8Knopf/jkons-wvss-extensions?style=plastic)
-![shield](https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic&link=https://open-vsx.org/&link=https://open-vsx.org/extension/JimKnopf/jkons-extension-pack)
+](https://github.com/Jim8Knopf/jkons-wvss-extensions/graphs/contributors)
+[
+![shield](https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic)
+](https://open-vsx.org/extension/JimKnopf/jkons-extension-pack)
 
 ## Included Extensions
 
