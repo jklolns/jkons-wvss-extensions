@@ -15,10 +15,12 @@
 ![open-VSX rating](https://img.shields.io/open-vsx/v/JimKnopf/jkons-extension-pack?color=8743a7&style=plastic)
 ](https://open-vsx.org/extension/JimKnopf/jkons-extension-pack)
 
+[
 ![vsCode installs](https://img.shields.io/visual-studio-marketplace/r/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
 ![vsCode installs](https://img.shields.io/visual-studio-marketplace/d/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
 ![vsCode installs](https://img.shields.io/visual-studio-marketplace/v/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
 ![vsCode installs](https://img.shields.io/visual-studio-marketplace/i/JimKnopf.jkons-extension-pack?color=0065A9&logo=visual-studio-code&style=plastic)
+](https://marketplace.visualstudio.com/items?itemName=JimKnopf.jkons-extension-pack)
 
 ## Included Extensions
 
