@@ -24,6 +24,7 @@
 
 ## Included Extensions
 
+<<<<<<< HEAD
 -   [ESLint](https://open-vsx.org/extension/dbaeumer/vscode-eslint)
 -   [Prettier](https://open-vsx.org/extension/esbenp/prettier-vscode)
 -   [Code Spell Checker](https://open-vsx.org/extension/streetsidesoftware/code-spell-checker)
@@ -32,6 +33,18 @@
 -   [Live Sass](https://open-vsx.org/extension/glenn2223/live-sass)
 -   [Bracket Colorizer 2](https://open-vsx.org/extension/CoenraadS/bracket-pair-colorizer-2)
 -   [Indent Rainbow](https://open-vsx.org/extension/oderwat/indent-rainbow)
+=======
+- [ESLint](https://open-vsx.org/extension/dbaeumer/vscode-eslint)
+- [Prettier](https://open-vsx.org/extension/esbenp/prettier-vscode)
+- [Code Spell Checker](https://open-vsx.org/extension/streetsidesoftware/code-spell-checker)
+- [TabNine](https://open-vsx.org/extension/TabNine/tabnine-vscode)
+- [Live Server](https://open-vsx.org/extension/ritwickdey/LiveServer)
+- [Live Sass](https://open-vsx.org/extension/glenn2223/live-sass)
+- [Bracket Colorizer 2](https://open-vsx.org/extension/CoenraadS/bracket-pair-colorizer-2)
+- [Indent Rainbow](https://open-vsx.org/extension/oderwat/indent-rainbow)
+- [npm](https://open-vsx.org/extension/eg2/vscode-npm-script)
+- [markdownlinter](https://open-vsx.org/extension/DavidAnson/vscode-markdownlint)
+>>>>>>> master
 
 ## Extensions we want to add when they are in the [Open VSX Registry](https://open-vsx.org)
 
