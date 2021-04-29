@@ -34,6 +34,9 @@
 - [Indent Rainbow](https://open-vsx.org/extension/oderwat/indent-rainbow)
 - [npm](https://open-vsx.org/extension/eg2/vscode-npm-script)
 - [markdownlinter](https://open-vsx.org/extension/DavidAnson/vscode-markdownlint)
+- [HTML CSS Support](https://open-vsx.org/extension/ecmel/vscode-html-css)
+- [CSS Peek](https://open-vsx.org/extension/pranaygp/vscode-css-peek)
+- [advanced-new-file](https://open-vsx.org/extension/patbenatar/advanced-new-file)
 
 ## Extensions we want to add when they are in the [Open VSX Registry](https://open-vsx.org)
 
