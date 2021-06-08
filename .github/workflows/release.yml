@@ -23,6 +23,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           npm i
           npm version patch
+          echo 'test'>>msPackage.json
           git add .
           git commit -m "Add changes" -a
           git pull
