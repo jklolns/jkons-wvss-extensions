@@ -1,5 +1,5 @@
 # Change Log
 
-## [Unreleased]
+## [0.0.36]
 
-- Initial release
+- Added setup of default formatter
