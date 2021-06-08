@@ -11,6 +11,9 @@ function activate(context) {
     vscode.workspace
         .getConfiguration()
         .update("editor.defaultFormatter", "esbenp.prettier-vscode", vscode.ConfigurationTarget.Global);
+    vscode.workspace
+        .getConfiguration()
+        .update("editor.formatOnSave", true, vscode.ConfigurationTarget.Global);
 }
 exports.activate = activate;
 //# sourceMappingURL=extension.js.map

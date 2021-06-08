@@ -15,4 +15,8 @@ export function activate(context: vscode.ExtensionContext) {
       "esbenp.prettier-vscode",
       vscode.ConfigurationTarget.Global
     );
+
+  vscode.workspace
+    .getConfiguration()
+    .update("editor.formatOnSave", true, vscode.ConfigurationTarget.Global);
 }
