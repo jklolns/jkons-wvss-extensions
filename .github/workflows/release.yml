@@ -51,7 +51,7 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: ${{ github.ref }}
+          automatic_release_tag: ${{ GITHUB_REF#refs/*/ }}
           prerelease: false
           title: "Extension file"
           files: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
