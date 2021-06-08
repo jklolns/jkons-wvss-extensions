@@ -1,0 +1,31 @@
+name: patch version
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false
+      - name: git init
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      - name: patch version
+        run: npm version patch
+      - name: Commit files
+        run: |
+          git add .
+          git commit -m "Add changes" -a
+          git pull
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          force: true
