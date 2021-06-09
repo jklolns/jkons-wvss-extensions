@@ -1,7 +1,7 @@
 ---
 name: I found a bug
 about: Ther is a mistake? Please tell us what you found
-title: "and thats the bug"
+title: "and that's the bug"
 labels: bug
 assignees: ''
 
