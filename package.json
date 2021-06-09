@@ -3,7 +3,7 @@
   "displayName": "jk|o|ns Extension Pack",
   "publisher": "JimKnopf",
   "description": "An Extension Pack for a simple setup at school",
-  "version": "0.0.56",
+  "version": "0.0.57",
   "engines": {
     "vscode": "^1.50.0"
   },
