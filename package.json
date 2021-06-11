@@ -33,7 +33,11 @@
     "commands": [
       {
         "command": "jkonsWVSS.setupWorkspace",
-        "title": "Setup Workspace"
+        "title": "Setup Workspace ( jkons )"
+      },
+      {
+        "command": "jkonsWVSS.selectLightTheme",
+        "title": "Select Light Theme ( jkons )"
       }
     ]
   },
