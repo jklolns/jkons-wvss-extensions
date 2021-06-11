@@ -32,8 +32,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
+        "command": "jkonsWVSS.setupWorkspace",
+        "title": "Setup Workspace"
       }
     ]
   },
