@@ -23,7 +23,9 @@
     "davidanson.vscode-markdownlint",
     "ecmel.vscode-html-css",
     "pranaygp.vscode-css-peek",
-    "patbenatar.advanced-new-file"
+    "patbenatar.advanced-new-file",
+    "akamud.vscode-theme-onedark",
+    "akamud.vscode-theme-onelight"
   ],
   "activationEvents": [
     "onStartupFinished"
@@ -38,6 +40,10 @@
       {
         "command": "jkonsWVSS.selectLightTheme",
         "title": "Select Light Theme ( jkons )"
+      },
+      {
+        "command": "jkonsWVSS.selectDarkTheme",
+        "title": "Select Dark Theme ( jkons )"
       }
     ]
   },

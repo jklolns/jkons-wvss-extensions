@@ -26,7 +26,7 @@ export function activate(context: vscode.ExtensionContext) {
       // Assign JSON to a variable to declare a index signature
       let setupSettings: { [index: string]: any } = settingsJSON;
       // Iterate over the setup settings json
-      // * No vscode api function found to update all at once at the moment.
+      // * No vscode api function found to update all settings at once at the moment.
       Object.keys(settingsJSON).forEach((key: string) => {
         // Update the current workspace settings
         config.update(key, setupSettings[key], target);
@@ -47,7 +47,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // Register select light theme command
   let selectDarkThemeDisposable = validWorkspaceCMD(
-    "jkonsWVSS.selectLightTheme",
+    "jkonsWVSS.selectDarkTheme",
     () => {
       // Update the current workspace theme to the light theme
       config.update(colorTheme, "Atom One Dark", target);
