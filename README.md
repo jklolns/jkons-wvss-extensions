@@ -4,10 +4,14 @@
 
 [
 ![contributors](https://img.shields.io/github/contributors/Jim8Knopf/jkons-wvss-extensions?style=plastic)
-![contributors](https://img.shields.io/github/license/Jim8Knopf/jkons-wvss-extensions?style=plastic)
-![contributors](https://img.shields.io/github/package-json/v/Jim8Knopf/jkons-wvss-extensions?style=plastic)
-![contributors](https://img.shields.io/github/workflow/status/Jim8Knopf/jkons-wvss-extensions/Release?style=plastic)
 ](https://github.com/Jim8Knopf/jkons-wvss-extensions/graphs/contributors)
+[
+![contributors](https://img.shields.io/github/license/Jim8Knopf/jkons-wvss-extensions?style=plastic)
+](https://github.com/jklolns/jkons-wvss-extensions/blob/master/LICENSE)
+![contributors](https://img.shields.io/github/package-json/v/Jim8Knopf/jkons-wvss-extensions?style=plastic)
+[
+![contributors](https://img.shields.io/github/workflow/status/Jim8Knopf/jkons-wvss-extensions/Release?style=plastic)
+](https://github.com/jklolns/jkons-wvss-extensions/actions)
 
 [
 ![open-VSX rating](https://img.shields.io/open-vsx/rating/JimKnopf/jkons-extension-pack?color=8743a7&label=Open%20VSX&style=plastic)
