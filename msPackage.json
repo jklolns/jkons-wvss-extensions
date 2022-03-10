@@ -12,9 +12,6 @@
     "davidanson.vscode-markdownlint",
     "ecmel.vscode-html-css",
     "pranaygp.vscode-css-peek",
-    "patbenatar.advanced-new-file",
-    "redwan-hossain.auto-rename-tag-clone",
-    "Umoxfo.vscode-w3cvalidation",
-    "naumovs.color-highlight"
+    "patbenatar.advanced-new-file"
   ]
 }
