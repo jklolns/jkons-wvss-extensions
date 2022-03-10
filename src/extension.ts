@@ -31,6 +31,11 @@ export function activate(context: vscode.ExtensionContext) {
         // Update the current workspace settings
         config.update(key, setupSettings[key], target);
       });
+      config.update(
+        "editor.bracketPairColorization.enabled",
+        setupSettings["editor.bracketPairColorization.enabled"],
+        true
+      );
     },
     "Setup completed!"
   );
