@@ -33,8 +33,8 @@ export function activate(context: vscode.ExtensionContext) {
       });
       config.update(
         "editor.bracketPairColorization.enabled",
-        setupSettings["editor.bracketPairColorization.enabled"],
-        true
+        true,
+        vscode.ConfigurationTarget.Global
       );
     },
     "Setup completed!"
