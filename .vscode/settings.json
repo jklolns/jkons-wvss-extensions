@@ -1,7 +1,6 @@
 {
-    "cSpell.words": [
-        "ovsx"
-    ],
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+  "cSpell.words": ["ovsx"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": false
 }
