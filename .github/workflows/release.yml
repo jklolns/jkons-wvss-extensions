@@ -51,7 +51,7 @@ jobs:
           title: "Extension file"
           files: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
 
-   publishMS:
+  publishMS:
     needs: patch
     runs-on: ubuntu-latest
     steps:
@@ -61,7 +61,7 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: node addMSVScode.js
-      
+
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:
@@ -74,5 +74,3 @@ jobs:
           prerelease: false
           title: "Extension file"
           files: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
-
-          
