@@ -3,7 +3,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Default Dark+",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
