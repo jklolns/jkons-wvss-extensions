@@ -12,6 +12,37 @@ export function activate(context: vscode.ExtensionContext) {
   /* Setting Key Vars */
 
   let colorTheme: string = "workbench.colorTheme";
+  const settings = [
+    { "files.autoSave": "afterDelay" },
+    { "explorer.compactFolders": false },
+    { "projectManager.openInNewWindowWhenClickingInStatusBar": true },
+    { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    { "editor.formatOnSave": true },
+    { "cSpell.userWords": [] },
+    { "eslint.alwaysShowStatus": true },
+    {
+      "eslint.codeAction.showDocumentation": {
+        enable: true,
+      },
+    },
+    { "eslint.lintTask.enable": true },
+    { "errorLens.statusBarColorsEnabled": true },
+    { "errorLens.statusBarMessageEnabled": true },
+    { "errorLens.statusBarMessageType": "closestProblem" },
+    { "errorLens.followCursor": "closestProblem" },
+    { "errorLens.gutterIconsEnabled": true },
+    { "errorLens.scrollbarHackEnabled": true },
+    { "errorLens.fontStyleItalic": true },
+    { "editor.guides.bracketPairs": true },
+    { "workbench.colorTheme": "One Dark Pro" },
+    { "workbench.iconTheme": "material-icon-theme" },
+    { "editor.fontFamily": "Fira Code" },
+    { "editor.fontLigatures": true },
+  ];
+  const extractAsKeyValue = (object: object) => ({
+    key: Object.keys(object)[0],
+    value: Object.values(object)[0],
+  });
 
   /* Init */
 
@@ -36,6 +67,12 @@ export function activate(context: vscode.ExtensionContext) {
         true,
         vscode.ConfigurationTarget.Global
       );
+      settings.forEach(async (setting) => {
+        const { key, value } = extractAsKeyValue(setting);
+        await vscode.workspace
+          .getConfiguration()
+          .update(key, value, vscode.ConfigurationTarget.Global);
+      });
     },
     "Setup completed!"
   );
